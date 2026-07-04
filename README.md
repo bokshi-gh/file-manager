@@ -17,14 +17,12 @@ A simple and lightweight file manager for Linux written in C using GTK 4.
 
 Coming soon.
 
-## Requirements
+## Dependencies
 
-* GTK 4
-* GLib
-* GIO
-* Meson
-* Ninja
-* GCC (or another C compiler)
+- GTK 4 (includes GLib and GIO)
+- Meson
+- Ninja
+- GCC
 
 ## Building
 
