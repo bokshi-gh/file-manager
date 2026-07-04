@@ -1,0 +1,22 @@
+# Build directory
+build/
+
+# Generated files
+compile_commands.json
+
+# Editor directories
+.vscode/
+.idea/
+
+# Vim
+*.swp
+*.swo
+
+# Emacs
+*~
+
+# macOS
+.DS_Store
+
+# Thumbnails
+Thumbs.db
