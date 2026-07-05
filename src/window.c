@@ -3,22 +3,18 @@
 GtkWindow *
 fm_window_new(GtkApplication *application)
 {
+    GtkBuilder *builder;
     GtkWindow *window;
 
+    builder = gtk_builder_new_from_file("resources/ui/window.ui");
+
     window = GTK_WINDOW(
-        gtk_application_window_new(application)
+        gtk_builder_get_object(builder, "main_window")
     );
 
-    gtk_window_set_title(
-        window,
-        "Home - File Manager"
-    );
+    gtk_window_set_application(window, application);
 
-    gtk_window_set_default_size(
-        window,
-        1280,
-        720
-    );
+    g_object_unref(builder);
 
     return window;
 }
