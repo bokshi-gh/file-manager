@@ -22,8 +22,8 @@ executable(
     'fm',
     [
         'src/main.c',
-        'src/application.c',
-        'src/window.c',
+        'src/fm-application.c',
+        'src/fm-window.c',
         resources,
     ],
     include_directories: include_directories('include'),

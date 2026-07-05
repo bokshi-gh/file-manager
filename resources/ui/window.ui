@@ -16,10 +16,32 @@
 
                 <property name="orientation">vertical</property>
 
+                <!-- Header Bar -->
+                <child>
+
+                    <object class="GtkHeaderBar" id="header_bar">
+
+                        <property name="show-title-buttons">true</property>
+
+                    </object>
+
+                </child>
+
+                <!-- Main Content -->
+                <child>
+
+                    <object class="GtkPaned" id="main_paned">
+
+                        <property name="wide-handle">true</property>
+
+                    </object>
+
+                </child>
+
             </object>
 
         </child>
 
     </object>
 
-</interface>
+</interface
