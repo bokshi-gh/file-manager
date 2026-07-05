@@ -1,7 +1,7 @@
 #include <gtk/gtk.h>
 
-#include "application.h"
-#include "window.h"
+#include "fm-application.h"
+#include "fm-window.h"
 
 static void
 on_activate(GtkApplication *application, gpointer user_data)
